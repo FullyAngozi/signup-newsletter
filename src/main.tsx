@@ -10,7 +10,7 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
     <BrowserRouter>
     <Routes>
       <Route index element={<App />} />
-      <Route path='/success' element={<SuccessPage />} />
+      <Route path='/success' element={<SuccessPage  />} />
     </Routes>
     </BrowserRouter>
   </React.StrictMode>,
